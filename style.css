@@ -1,0 +1,77 @@
+#skip {
+    color: orangered
+}
+
+.textshadow {
+    text-shadow: 5px 5px 8px grey;
+}
+
+.fontselector {
+    font-size: 310%;
+    font-weight: 1000;
+}
+
+.diet {
+    font-size: 170%;
+    color: grey;
+}
+
+.anchor {
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 8px;
+    color: blue;
+    background-image: linear-gradient(to right bottom, yellow, orange);
+    font-size: 140%;
+    font-weight: 550;
+}
+
+.fblock {
+    display: flex;
+}
+
+.widthselector {
+    width: 50%;
+    padding: 4px;
+}
+
+.widthselector img {
+    width: 90%;
+    height: 100%;
+    margin-top: 5%;
+
+}
+
+.align {
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.back {
+    background-image: url(Photos/Frame\ 58.jpg);
+    margin-top: 5%;
+    height: 10%;
+}
+
+.ancr2 {
+    text-decoration: none;
+    color: antiquewhite;
+    background-color: orangered;
+    border: 0.5px solid black;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 130%;
+    font-weight: 520;
+    position: relative;
+    top: 9%;
+}
+
+.posi {
+    margin-top: 12%;
+}
+
+.picpos {
+    height: 70%;
+    width: 50%;
+}
