@@ -1,3 +1,15 @@
+/* -----Google font-Josefin sans and poopins importing-------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*-------- Common styles or utilities ---------*/
+
+body {
+    max-width: 1240px;
+    margin: 0px auto;
+}
+
 #skip {
     color: orangered
 }
@@ -12,8 +24,9 @@
 }
 
 .diet {
-    font-size: 170%;
+    font-size: 160%;
     color: grey;
+    margin-right: 3%;
 }
 
 .anchor {
@@ -51,7 +64,6 @@
 .back {
     background-image: url(Photos/Frame\ 58.jpg);
     margin-top: 5%;
-    height: 10%;
 }
 
 .ancr2 {
@@ -74,4 +86,95 @@
 .picpos {
     height: 70%;
     width: 50%;
+}
+
+.recepie {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.lorem {
+    font-size: 120%;
+    font-weight: 400;
+    color: grey;
+}
+
+.ceight {
+    border-radius: 30px;
+}
+
+.boxshadow {
+    box-shadow: 9px 5px 15px orange;
+    padding: 2%;
+    border-radius: 30px;
+    margin: 2%;
+    height: 20%;
+}
+
+#imagepo {
+
+    height: 60%;
+    width: 92%;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid white;
+    border-radius: 8px;
+    box-shadow: 3px 3px 5px 6px gray;
+    width: 92%;
+    margin-top: 3%;
+    margin-left: 4%;
+}
+
+.followers {
+    padding-top: 1.5%;
+}
+
+.followers strong {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 28px;
+    font-weight: 1500;
+}
+
+.followers p {
+    font-family: "Poppins", sans-serif;
+    color: grey;
+    position: relative;
+    bottom: 12%;
+    right: 2%;
+}
+
+footer {
+    margin-top: 6%;
+    height: 220px;
+    width: 100%;
+    background-color: #0A0826;
+}
+
+footer p {
+    text-align: center;
+    position: relative;
+    top: 20%;
+}
+
+.Eat {
+    color: orange;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.fresh {
+    color: darkgray;
+    font-size: 28px;
+    margin-left: 10px;
+    font-weight: 800;
+}
+
+footer h6 {
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    margin-top: 5%;
 }
